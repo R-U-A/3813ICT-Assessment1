@@ -1,8 +1,12 @@
 .login-wrapper{
     margin: 20rem auto;
-    width: 20rem;
+    width: 22rem;
 }
 
 input {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    margin-bottom: 0.5rem; 
 }

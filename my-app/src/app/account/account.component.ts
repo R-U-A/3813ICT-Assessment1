@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { user } from '../interfaces/user';
 
 @Component({
   selector: 'app-account',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccountComponent implements OnInit {
 
-  constructor() { }
+  account: user [];
+  constructor() { 
+    this.account = []; 
+  }
 
   ngOnInit(): void {
   }

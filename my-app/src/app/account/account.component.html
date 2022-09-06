@@ -1,7 +1,42 @@
-<div class = "container">
-    <div class="row app-container">
-        <div class="col">
-            Main stuff
-        </div> 
-    </div>
-</div> 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div class="card">
+            <div class="card-header">
+              Current Users
+            </div>
+            <div>
+                <div class="bd-example-snippet bd-code-snippet"><div class="bd-example">
+                <table class="table table-striped">
+                  <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Action</th> 
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr *ngFor="let user of account; let i= index">
+                    <td>{{i+1}} </td>
+                        <td>{{user.username}}</td>
+                        <td>{{user.userEmail}}</td>
+                    <td>
+                        <button class="btn btn-sm btn-danger">Delete</button>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+                </div></div>
+            <script src="" async defer></script>
+          </div>
+        
+        
