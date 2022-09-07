@@ -9,7 +9,7 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" *ngIf="authenticationService.isAdmin">
             <a class="nav-link active" aria-current="page" routerLink="/account">Account</a>
           </li>
           <li class="nav-item">
