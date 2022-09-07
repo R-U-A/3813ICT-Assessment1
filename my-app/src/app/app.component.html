@@ -9,11 +9,11 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
           </li>
-          <li class="nav-item" *ngIf="authenticationService.isAdmin">
-            <a class="nav-link active" aria-current="page" routerLink="/account">Account</a>
+          <li class="nav-item">
+            <a class="nav-link active"  *ngIf="authenticationService.isAdmin" aria-current="page" routerLink="/account">Account</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" routerLink="/chatbox">Chat</a> 
+            <a class="nav-link active" aria-current="page" routerLink="/chatbox">Chatroom</a> 
           </li>
         </ul>
         <ul class="navbar-nav ml-auto">
