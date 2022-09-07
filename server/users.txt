@@ -1,0 +1,1 @@
+[{"userId":"1","userEmail":"smith_joe@gmail.com","userPassword":"pos123","userAdmin":true},{"userId":"2","userEmail":"joe@gmail.com","userPassword":"pos123","userAdmin":false},{"userId":"3","userEmail":"smith@gmail.com","userPassword":"pos123","userAdmin":true},{"userId":"4","userEmail":"h_j@gmail.com","userPassword":"pos123","userAdmin":false}]
